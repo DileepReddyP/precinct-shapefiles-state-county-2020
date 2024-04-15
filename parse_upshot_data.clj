@@ -10,7 +10,7 @@
   (str "./statewise/" state-code "/" state-code ".geojson"))
 (defn county-geojson-filepath [state-code county-name]
   (str "./statewise/" state-code "/counties/" county-name ".geojson"))
-
+ 
 (comment
   ;;; run `jq -c '.features' ./dataset/precincts-with-results.geojson > ./dataset/features-only.geojson`
   ;;; to remove only the features array from the giant geojson 
