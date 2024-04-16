@@ -1,3 +1,5 @@
 {:deps {org.clojure/clojure {:mvn/version "1.11.2"}
         org.clojure/data.csv {:mvn/version "1.1.0"}
-        cheshire/cheshire {:mvn/version "5.13.0"}}}
+        cheshire/cheshire {:mvn/version "5.13.0"}}
+  :aliases {
+   :dev {:jvm-opts ["-Xmx4g"]}}}
