@@ -8,13 +8,13 @@ The MIT license for NYT data is in the `NYT_LICENSE` file. (The NYT data itself 
 
 The files are in the `statewise` directory with the following structure
 
-statewise/
-├── {STATE CODE}/
-│   ├── {STATE CODE}.geojson
-│   └── js/
-│       ├── {COUNTY NAME}.geojson
-│       ...
-|       
+statewise/  
+├── {STATE CODE}/  
+│   ├── {STATE CODE}.geojson  
+│   └── js/  
+│       ├── {COUNTY NAME}.geojson  
+│       ...  
+|         
 ...
 
 Note: I have not verified that I have properly split the data for all 3000+ counties.
