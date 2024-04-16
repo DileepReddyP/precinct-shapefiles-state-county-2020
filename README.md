@@ -6,8 +6,9 @@ Each state/county GeoJSON file contains the precinct shapefiles for that geograp
 
 The MIT license for NYT data is in the `NYT_LICENSE` file. (The NYT data itself is not included)
 
-The files are in the `statewise` directory with the following structure
+The files are in the `statewise` directory with the following structure:  
 
+```
 statewise/  
 ├── {STATE CODE}/  
 │   ├── {STATE CODE}.geojson  
@@ -16,5 +17,7 @@ statewise/
 │       ...  
 |         
 ...
+```
+
 
 Note: I have not verified that I have properly split the data for all 3000+ counties.
