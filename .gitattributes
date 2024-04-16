@@ -1,0 +1,4 @@
+statewise/CA/CA.geojson filter=lfs diff=lfs merge=lfs -text
+statewise/NY/NY.geojson filter=lfs diff=lfs merge=lfs -text
+statewise/TN/TN.geojson filter=lfs diff=lfs merge=lfs -text
+statewise/TX/TX.geojson filter=lfs diff=lfs merge=lfs -text
